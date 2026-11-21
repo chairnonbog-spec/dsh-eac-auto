@@ -1,0 +1,13 @@
+# dsh-eac-auto bundle patch.
+#
+# One Host row: the plugin registers the `eac-auto` provider route and the
+# "EAC AUTO" model on it. The route name must be unique across the profile, so
+# it carries the plugin's own prefix rather than a bare "eac-auto".
+
+- insert:
+    - id: eac-auto
+      name: 'dsh-eac-auto'
+      config:
+        strategy: balanced
+        silenceTimeoutMs: 120000
+        enabled: true

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36" role="img" aria-label="EAC Auto">
+  <title>EAC Auto</title>
+  <!-- The rotation arrow: one model is picked automatically, and the ring turns
+       to the next one when it fails. -->
+  <path d="M27.66 15.41 A 10 10 0 1 1 23.74 9.81"
+        fill="none" stroke="#2F6BFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M27.02 12.11 L21.96 12.35 L25.52 7.27 Z" fill="#2F6BFF"/>
+  <!-- The model that answers. -->
+  <rect x="14.4" y="14.4" width="7.2" height="7.2" rx="2" fill="#2F6BFF" opacity="0.9"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "EAC Auto",
+    "description": "Adds one selectable model, EAC AUTO. It picks an available free EAC model for every turn and automatically switches to the next one when a model fails, so a quota wall or a bad upstream does not end your turn."
+  }
+}

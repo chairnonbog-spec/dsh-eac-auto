@@ -1,0 +1,52 @@
+{
+  "name": "dsh-eac-auto",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Adds one selectable model, EAC AUTO, that answers from the free EAC models and switches to the next model automatically whenever one fails.",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "LICENSE",
+    "README.md",
+    "INSTALL.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "eac",
+    "model",
+    "failover",
+    "llm"
+  ],
+  "scripts": {
+    "test": "node scripts/test.mjs && node scripts/host-test.mjs",
+    "check": "node --check index.js && node --check src/adapter.js && node --check src/discovery.js && node --check src/failover.js"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/dsh-eac-auto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/USERNAME/dsh-eac-auto/issues"
+  },
+  "homepage": "https://github.com/USERNAME/dsh-eac-auto#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}

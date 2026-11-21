@@ -1,0 +1,9 @@
+node_modules/
+*.tgz
+dist/
+.verify*/
+.DS_Store
+Thumbs.db
+*.log
+# 开发期的临时探查脚本，不属于发布内容
+scripts/investigation/
